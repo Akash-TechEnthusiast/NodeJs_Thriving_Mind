@@ -1,6 +1,6 @@
 FROM node:alpine
 
-WORKDIR /usr/nodejsapp
+WORKDIR /usr/visitorapp
 COPY ./package.json ./
 RUN npm install
 COPY ./ ./

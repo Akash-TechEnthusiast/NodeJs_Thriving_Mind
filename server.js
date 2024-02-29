@@ -3,7 +3,7 @@ const Redis = require('ioredis');
 const app = express();
 
 const redis = new Redis({
-  host: 'localhost', // default is localhost
+  host: 'my-redis-container1', // default is localhost
   port: 6379 // default Redis port
   // password: 'your-redis-password', // if your Redis server requires authentication
 });
